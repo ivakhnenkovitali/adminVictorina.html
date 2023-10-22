@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style0.css">
+</head>
+<style>
+    .error {
+        color: red
+    }
+</style>
+
+<body>
+    <div id="container">
+        <form>
+            <label>Введите вариант вопроса</label>
+            <textarea rows="2" autofocus="autofocus"></textarea>
+            <p class="error text"> </p>
+            <label>введите варианты ответов <br>(для добавления нажимайте Enter, для отмены Esc)</label>
+
+            <ul>
+                <li>
+                    <input type="text">
+                </li>
+            </ul>
+            <p class="error answer"> </p>
+            <input type="number" placeholder="введите номер правильного ответа" min="1">
+            <p class="error correct"> </p>
+            <button class="btn2"> добавить вопрос</button>
+        </form>
+    </div>
+    <a href="victorina0.html">назад</a>
+    <script src="scriptVict0.js"></script>
+</body>
+
+</html>
